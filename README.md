@@ -1,6 +1,6 @@
 # Wiki repoistory for iDEC 2023 | WSNJ-A
 
-你好，wiki
+你好，wiki， 我在中国等你！
 
 (This a temporary README file that needs to be updated before you submit the team wiki. Please stay tuned at [idec.io](https://idec.io) for future relevant announcements.)
 
