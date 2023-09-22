@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      href="https://static.igem.wiki/common/icons/favicons/igem-2022.svg"
+    />
+    <link rel="license" href="https://creativecommons.org/licenses/by/4.0/" />
+
+    <!-- <link href="static/bootstrap.min.css" rel="stylesheet">
+
+    <link href="static/style.css" rel="stylesheet"> -->
+
+    <link href="static/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="static/swiper.min.css" rel="stylesheet" />
+    <link href="static/style.css" rel="stylesheet" />
+    <script src="static/jquery-3.5.1.min.js"></script>
+    <script src="static/swiper.min.js"></script>
+    <script src="static/myJs.js"></script>
+
+    <title>| Nanjing-BioX - iGEM 2023</title>
+  </head>
+  <body>
+    <form id="form1">
+      <!-- <script  src="../tyw.key.400301.com/js/replace_word_limit.js"></script> -->
+      <!--④设置网站背景开始-->
+
+      <div class="headbg">
+        <div class="head wapper2">
+          <div class="logo">
+            <a href="index.html" title="Nanjing-BioX"
+              ><img
+                src="https://static.igem.wiki/teams/4886/wiki/20230818092145.png"
+                alt="Nanjing-BioX"
+            /></a>
+          </div>
+          <!--menu start-->
+          <div class="menu">
+            <ul>
+              <li>
+                <span><a href="index.html" title="Home">Home</a> </span>
+              </li>
+              <li>
+                <span><a href="team.html" title="Team">Team</a> </span>
+              </li>
+              <li>
+                <span
+                  ><a href="background.html" title="Background">Background</a>
+                </span>
+              </li>
+              <li>
+                <span
+                  ><a href="results.html" title="Results">Results</a>
+                </span>
+              </li>
+              <li>
+                <span
+                  ><a href="protocols.html" title="Protocols">Protocols</a>
+                </span>
+              </li>
+              <li>
+                <span
+                  ><a href="lab.html" title="Lab">Lab</a>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <!--menu end-->
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="head_mbg">
+        <div class="head_m wapper2">
+          <div class="logo">
+            <a href="index.html" title="Nanjing-BioX"
+              ><img
+                src="https://static.igem.wiki/teams/4886/wiki/20230818092145.png"
+                alt="Nanjing-BioX"
+            /></a>
+          </div>
+          <div class="nav_open">
+            <i class="fa fa-navicon"></i><i class="fa fa-close"></i>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="navbg">
+        <div class="nav">
+          <!--<div class="nav_close"><i class="fa fa-close"></i></div>-->
+          <div class="nav_list">
+            <div class="tree">
+              <div class="tree_box">
+                <h3>
+                  <a
+                    href="index.html"
+                    title="Home"
+                    >Home</a
+                  >
+                </h3>
+              </div>
+
+              <div class="tree_box">
+                <h3>
+                  <a href="team.html" title="Description"
+                    >Team</a
+                  >
+                </h3>
+              </div>
+
+              <div class="tree_box">
+                <h3>
+                  <a href="background.html" title="Design"
+                    >Background</a
+                  >
+                </h3>
+              </div>
+
+              <div class="tree_box">
+                <h3>
+                  <a href="results.html" title="Design"
+                    >Results</a
+                  >
+                </h3>
+              </div>
+
+              <div class="tree_box">
+                <h3>
+                  <a href="protocols.html" title="Design"
+                    >Protocols</a
+                  >
+                </h3>
+              </div>
+
+              <div class="tree_box">
+                <h3>
+                  <a href="lba.html" title="Design"
+                    >Lab</a
+                  >
+                </h3>
+              </div>
+
+ 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="h_height"></div>
+      <!-- Page Content -->
+
+      <div class="inbanner">
+        <img
+          src="https://static.igem.wiki/teams/4886/wiki/20230911112741.jpg"
+        />
+
+        <div class="inbanner_txtbg">
+          <div class="inbanner_txt">
+            <div class="h2">Engineering Success</div>
+            <div class="h3"></div>
+          </div>
+        </div>
+      </div>
+      <div class="insidebg">
+        <div class="wapper1">
+          <div class="inside">
+            <div class="engineering1">
+              <iframe
+                style="width: 100%; height: 75vh"
+                src="engineering.pdf"
+                title="Engineering Success"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footbg">
+        <footer class="pt-5 pb-5 footer py-5 mt-5 bg-dark text-white">
+          <div class="container">
+            <div class="row mt-4">
+              <div class="col">
+                <p>
+                  <small
+                    >The repository used to create this website is available at
+                    <a href="https://github.com/idec-teams/2023_WSNJ-A"
+                      >https://github.com/idec-teams/2023_WSNJ-A</a
+                    >.</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <script>
+        var h1 = $(".h_height").height();
+        var h2 = $(".inbanner").height();
+        var minHeight = h1 + h2;
+        $(window).scroll(function () {
+          var s = $(window).scrollTop();
+          if (s > minHeight) {
+            $(".inside2_lt").css({ position: "fixed", top: "90px" });
+          } else {
+            $(".inside2_lt").css({ position: "static" });
+          }
+        });
+      </script>
+    </form>
+
+    <!-- Navigation -->
+
+    <!-- Header -->
+
+    <!-- <script src="static/bootstrap.bundle.min.js"></script> -->
+  </body>
+</html>
