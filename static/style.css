@@ -801,7 +801,7 @@ img {
 }
 .side_a ul li a {
     display: block;
-    font-size: 0;
+    font-size:20px;
     color: tranparent;
     border: 2px solid #031fef;
     line-height: 26px;
@@ -809,8 +809,16 @@ img {
     border-radius: 40px;
     font-weight: bold;
     text-align: center;
-    width: 26px;
+ 
 }
+
+
+.description1 table th{
+    padding: 10px 10px;
+    background: #1f2225;
+    border-bottom: 2px solid #5b6fff;
+}
+
 .side_a ul li.active a {
     font-size: 20px;
     color: #fff;
@@ -1049,6 +1057,21 @@ img {
 }
 .attributions1 dl dd {
 }
+
+
+.description1 h2{
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.description1 h2 + p{
+    margin-top:30px;
+}
+
+
+
 .description1 {
 }
 .description1 dl {
