@@ -132,7 +132,7 @@
 
               <div class="tree_box">
                 <h3>
-                  <a href="lba.html" title="Design"
+                  <a href="lab.html" title="Design"
                     >Lab</a
                   >
                 </h3>
@@ -1203,9 +1203,9 @@ Use Aminex HPX-87H Columns (100 mm × 7.8 mm, BioRad, Marnes La coquette) and 
         $(window).scroll(function () {
           var s = $(window).scrollTop();
           if (s > minHeight) {
-            $(".inside2_lt").css({ position: "fixed", top: "90px" });
+            $(".inside2_lt").css({ position: "fixed", top: "90px" }).addClass('fixed');
           } else {
-            $(".inside2_lt").css({ position: "static" });
+            $(".inside2_lt").css({ position: "static" }).removeClass('fixed');
           }
         });
       </script>

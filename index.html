@@ -132,7 +132,7 @@
 
               <div class="tree_box">
                 <h3>
-                  <a href="lba.html" title="Design"
+                  <a href="lab.html" title="Design"
                     >Lab</a
                   >
                 </h3>
@@ -171,111 +171,34 @@
               </div>
             </div>
           </div>
-          <div class="con01_rt">
-            <img
-              src="static/access/20230830163504.png"
-              alt="CADIock"
-            />
+  
+        </div>
+      </div>
+      <div class="con01bg">
+        <div class="con01">
+          <div class="con01_lt">
+            <div class="nr_box">
+              <div class="h3">
+                Directed evolution of promising engineered strains to improve their production capacity has 
+                received widespread attention in recent years. This study aims to develop a robust C. 
+                tyrobutyricum chassis which has an alternative non-oxidative glycolysis (NOG) pathway to 
+                EMP pathway and can withstand possible growth side effects of EMP modification during 
+                genomic directed evolution for enhanced or expanded synthesis capacity of bioproducts. 
+                We integrated a non-oxidative glycolysis (NOG) pathway to EMP pathway in C. 
+                tyrobutyricum by introducing F/Xpk gene. Plasmids using two F/Xpk genes and three 
+                different native promoters, Pthl, Ptkt and Pfba, were constructed and transferred into C. 
+                tyrobutyricum L319. By analyzing the growth and yields of butyric acid and acetic acid of 
+                the strain, we found that F/Xpk gene derived from C. acetobutylicum and Ptkt promoter
+                was the best combination for constructing NOG pathway in C. tyrobutyricum, and xylose 
+                was the best carbon source for the strain.
+              </div>
+            </div>
           </div>
+  
         </div>
       </div>
 
-      <div class="con03bg">
-        <div class="wapper1">
-          <div class="con03">
-            <div class="con03_lt">
-              <img
-                src="static/access/20230912085158.png"
-                alt="首页第三部分"
-              />
-            </div>
-            <div class="con03_rt">
-              <div class="nr_box">
-                <div class="txt">
-                  According to a study published in the journal "Environmental
-                  Science & Technology," approximately 240,000 tons of
-                  antibiotics are used in global livestock production each year,
-                  with a portion of it potentially entering the environment.
-                  This could result in the presence of antibiotic residues in
-                  soil, water bodies, and vegetation, causing adverse impacts on
-                  ecosystems and compromising environmental sustainability.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="con04bg">
-        <div class="wapper1">
-          <div class="con04">
-            <div class="con04_lt">
-              <div class="nr_box">
-                <div class="txt">
-                  According to data from the China Centers for Disease Control
-                  and Prevention (CDC), China is one of the world's largest
-                  consumers of antibiotics and also faces a severe antibiotic
-                  resistance problem. A survey conducted on antibiotic
-                  resistance revealed that approximately 70% of infectious
-                  bacteria in China have developed resistance to commonly used
-                  antibiotics.
-                </div>
-              </div>
-            </div>
-            <div class="con04_rt">
-              <img
-                src="static/access/20230912085320.png"
-                alt="首页第四部分"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="con05bg">
-        <div class="wapper1">
-          <div class="con05">
-            <div class="con05_lt">
-              <img
-                src="static/access/20230912085417.png"
-                alt="首页第五部分"
-              />
-            </div>
-            <div class="con05_rt">
-              <div class="nr_box">
-                <div class="txt">
-                  Therefore, the large-scale replacement of traditional
-                  antibiotics by green antibiotics is imminent. However, the
-                  large-scale production of green antibiotics such as
-                  clostridium tyrobutyricum using biomanufacturing methods can
-                  result in significant carbon emissions. In China, 7% of carbon
-                  emissions come from the process of biomanufacturing.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="con06bg">
-        <div class="wapper1">
-          <div class="con06">
-            <div class="con06_lt">
-              <div class="nr_box">
-                <div class="txt">
-                  Our method can reduce the carbon emissions by construct the
-                  NOG (non-oxidative glycolysis) pathway. For more details,
-                  please read Description & Design.
-                </div>
-              </div>
-            </div>
-            <div class="con06_rt">
-              <img
-                src="static/access/20230912085903.png"
-                alt="首页第六部分"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    
+      
 
       <div class="footbg">
         <footer class="pt-5 pb-5 footer py-5 mt-5 bg-dark text-white">
@@ -302,9 +225,9 @@
         $(window).scroll(function () {
           var s = $(window).scrollTop();
           if (s > minHeight) {
-            $(".inside2_lt").css({ position: "fixed", top: "90px" });
+            $(".inside2_lt").css({ position: "fixed", top: "90px" }).addClass('fixed');
           } else {
-            $(".inside2_lt").css({ position: "static" });
+            $(".inside2_lt").css({ position: "static" }).removeClass('fixed');
           }
         });
       </script>
@@ -315,6 +238,19 @@
     <!-- Header -->
    
     <!-- <script src="static/bootstrap.bundle.min.js"></script> -->
+
+    <style>
+      .con01_lt .nr_box{
+        padding: 0;
+      }
+      .con01{
+        display: block;
+        padding: 0px 15%;
+      }
+      .con01_lt{
+        width: auto;
+      }
+    </style>
   </body>
 </html>
 
