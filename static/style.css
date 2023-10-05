@@ -823,7 +823,7 @@ img {
 .description1 table th{
     padding: 10px 10px;
     background: #1f2225;
-    border-bottom: 2px solid #5b6fff;
+    border-bottom: 2px solid #054122;
 }
 
 .side_a ul li.active a {
@@ -1216,4 +1216,22 @@ img {
     background: #ff4500;
     margin: 0 14px;
     border-radius: 6px;
+}
+
+b{
+    font-weight:bold;
+}
+
+span img{
+    max-width:100%
+}
+ 
+[navbody] img {
+    background: #fff;
+    display: block;
+    margin: auto;
+}
+
+p.center{
+    text-align:center;
 }
