@@ -820,7 +820,7 @@ img {
 }
 
 
-.description1 table th{
+.description1 table th,.description1 table tr:nth-of-type(1) td{
     padding: 10px 10px;
     background: #1f2225;
     border-bottom: 2px solid #054122;
@@ -1234,4 +1234,9 @@ span img{
 
 p.center{
     text-align:center;
+}
+
+
+.description1 h4{
+    font-size: 18px;
 }
