@@ -784,10 +784,12 @@ img {
 .inside2_lt {
     float: left;
     width: 25%;
+    padding-right:10px;
 }
 
 .inside2_lt:not(.fixed){
     width:28%;
+    padding-right:10px;
 }
 
 .side_a {
@@ -1239,4 +1241,32 @@ p.center{
 
 .description1 h4{
     font-size: 18px;
+}
+
+.inside2_lt{
+    max-height: calc(100vh - 200px);
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+/* 滚动条的整体容器 */
+.inside2_lt::-webkit-scrollbar {
+    width: 12px; /* 宽度 */
+}
+
+/* 滚动条的轨道 */
+.inside2_lt::-webkit-scrollbar-track {
+    background: #333;
+    border-radius: 10px; /* 使轨道成为圆角 */
+}
+
+/* 滚动条的滑块 */
+.inside2_lt::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px; /* 使滑块成为圆角 */
+}
+
+/* 滚动条滑块鼠标悬停状态 */
+.inside2_lt::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }

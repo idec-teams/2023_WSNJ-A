@@ -76,6 +76,20 @@
 		adjustNav: function(self, $parent) {
 			self.$elem.find('.' + self.config.currentClass).removeClass(self.config.currentClass);
 			$parent.addClass(self.config.currentClass);
+
+
+			var distanceFromTop = 	$parent.offset().top - $(window).scrollTop();
+
+	 
+
+			// if(distanceFromTop>=($('.inside2_lt').offset().top - $(window).scrollTop()	+ $('.inside2_lt').height()	)){
+
+			// 	$('.inside2_lt').animate({ scrollTop: 100000 }, "slow");
+
+			// }else{
+			// 	$('.inside2_lt').animate({ scrollTop: 0 }, "slow");
+			// }
+
 		},
 
 		bindInterval: function() {
