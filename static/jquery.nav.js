@@ -77,18 +77,34 @@
 			self.$elem.find('.' + self.config.currentClass).removeClass(self.config.currentClass);
 			$parent.addClass(self.config.currentClass);
 
+			var index = $('#nav li').index($parent)
+			var len = $('#nav li').length
 
-			var distanceFromTop = 	$parent.offset().top - $(window).scrollTop();
+			if((index+1)>(len/2)){
+				$('.inside2_lt').animate({ scrollTop: 100000 }, "slow");
+			}else{
+				$('.inside2_lt').animate({ scrollTop: 0 }, "slow");
+			}
 
+			console.log(index,len/2);
+
+			// var distanceFromTop = 	$parent.offset().top - $(window).scrollTop();
+
+			// var top2 =   $('.inside2_lt').height()+80
+			// console.log(distanceFromTop,	top2);
 	 
 
-			// if(distanceFromTop>=($('.inside2_lt').offset().top - $(window).scrollTop()	+ $('.inside2_lt').height()	)){
+			// if(distanceFromTop>=top2){
+
+			// 	console.log('below');
 
 			// 	$('.inside2_lt').animate({ scrollTop: 100000 }, "slow");
 
 			// }else{
 			// 	$('.inside2_lt').animate({ scrollTop: 0 }, "slow");
-			// }
+			//  }
+
+			 
 
 		},
 
